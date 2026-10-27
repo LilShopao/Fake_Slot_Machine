@@ -1,0 +1,85 @@
+# Python Slot Machine Simulator
+
+A simple fake slot machine game created in 2023 while I was teaching myself the fundamentals of Python.
+
+## About the Project
+
+This project simulates a basic slot machine using Python’s `random` module. The user enters a starting balance, chooses how many rounds they want to play, and receives a win or loss result for each round.
+
+This was created purely as a self-study project to practice how Python works.
+
+## How the Game Works
+
+1. The user enters a starting balance.
+2. Each round costs $10.
+3. The user chooses how many rounds to play.
+4. The program generates three random numbers.
+5. If all three numbers match, the user wins the round.
+6. If the numbers do not match, the user loses the round.
+7. The user can choose to continue playing if they have enough balance remaining.
+
+## Technologies Used
+
+- Python
+- Python `random` module
+
+## Concepts Practiced
+
+- Defining and calling functions
+- Using function parameters and return values
+- Accepting user input
+- Converting strings into integers
+- Using `if` and `else` statements
+- Creating `while` loops
+- Generating random numbers
+- Tracking and updating a balance
+- Organizing a program through a `main()` function
+
+## My Contributions
+
+- Designed and wrote the program independently
+- Created the game flow and balance system
+- Added random number generation for the slot machine
+- Added input prompts for the starting balance and number of rounds
+- Added win and loss conditions
+- Added a continuation option when the user still had money remaining
+- Practiced debugging and understanding Python through experimentation
+
+## How to Run
+
+Make sure Python is installed on your computer.
+
+Clone the repository or download the Python file, then run:
+
+```bash
+python index.py
+```
+
+Follow the prompts in the terminal to play the game.
+
+## What I Learned
+
+This project helped me understand the fundamentals of Python by giving me a small, interactive program to build.
+
+I practiced breaking a program into multiple functions, using loops to repeat actions, working with user input, and using conditional logic to control the game. It was one of my early steps toward understanding how programming logic works.
+
+## Project Significance
+
+This was a beginner project created in 2023 while I was independently learning Python. It was not intended to be a complete or professional gambling application. Its purpose was to help me experiment with Python concepts and understand how separate parts of a program work together.
+
+## Future Improvements
+
+- Add stronger input validation
+- Prevent invalid balance entries
+- Display clearer win and loss results
+- Add a visual slot-machine interface
+- Add different symbols instead of only random numbers
+- Add a payout system for matching numbers
+- Improve the balance and continuation logic
+- Add automated tests for the game functions
+
+## Creator
+
+Isaac Jace Cheock
+
+- GitHub: [@LilShopao](https://github.com/LilShopao)
